@@ -1,0 +1,311 @@
+/* ========== COMPONENTS ========== */
+:root {
+  --accent-color: #ff6c00;
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color-dark-text: #303030;
+  --main-color-light-text: #9da4bd;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn-dark {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.btn-light {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--main-color-dark-text);
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.media-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--main-color-dark-text);
+}
+
+.media-list-link:hover,
+.media-list-link:focus {
+  color: var(--accent-color);
+}
+
+.suptitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.suptitle-theme-dark {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-theme-light {
+  color: var(--main-color-dark-text);
+}
+
+.section-describtion-light {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-color-light-text);
+}
+
+.section-describtion-dark {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.second-title-dark {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-color-dark-text);
+}
+
+.second-title-light {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+/* ========== /COMPONENTS ========== */
+
+/* ========== HEADER SECTION ========== */
+.header {
+  background-color: grey;
+}
+
+.header-navigation {
+}
+
+.logo-link {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-phone {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-color);
+}
+
+/* ========== /HEADER SECTION ========== */
+
+/* ========== HERO SECTION ========== */
+.hero {
+  background-color: grey;
+}
+.media-list {
+}
+.media-list-item {
+}
+
+.main-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+/* ========== /HERO SECTION ========== */
+
+/* ========== ABOUT SECTION ========== */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/* ========== /ABOUT SECTION ========== */
+
+/* ========== PRICES SECTION ========== */
+
+.prices {
+  background-color: #303030;
+}
+
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-color-light-text);
+}
+
+.prices-item-count {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: var(--main-color-light-text);
+}
+
+/* ========== /PRICES SECTION ========== */
+
+/* ========== RECOMENDATION SECTION ========== */
+
+.recomendation-list-count {
+  font-size: 42px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--main-color-dark-text);
+}
+.recomendation-list-text {
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--main-color-dark-text);
+}
+
+/* ========== /RECOMENDATION SECTION ========== */
+
+/* ========== BARBERS SECTION ========== */
+
+.name-title {
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color-dark-text);
+}
+.position-barber {
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/* ========== /BARBERS SECTION ========== */
+
+/* ========== PORTFOLIO SECTION ========== */
+.portfolio-gallery {
+}
+
+/* ========== FORM SECTION ========== */
+.form {
+  background-color: #555555;
+}
+/* ========== /FORM SECTION ========== */
+
+/* ========== CONTACT SECTION ========== */
+.contacts {
+  background-color: #555555;
+}
+
+.contact-list-address {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-color-light-text);
+}
+
+.contact-list-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: var(--main-color-light-text);
+}
+.work-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section-describtion-dark {
+}
+/* ========== /CONTACT SECTION ========== */
+
+/* ========== FOOTER SECTION ========== */
+.footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--main-color-light-text);
+}
+/* ========== /FOOTER SECTION ========== */
